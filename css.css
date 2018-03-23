@@ -1,7 +1,9 @@
 .hide{
     display: none;
-
-
+}
+.kon{
+    position: relative;
+    top: -10px;
 }
 
 .up{
@@ -227,23 +229,40 @@ label, a{
 .footer{
     display: flex;
     flex-flow: row wrap;
+    background:url("https://wikilink.by/wp-content/themes/wiki/img/background.png")#0E540E ;
+}
+.d1{
+    margin-right: 150px;
+    margin-left: 10px;
+}
+.soc_inf{
+    position: relative;
+    top: 5px;
+
 
 }
-#d1c a mp_bot:hover{
-    opacity: 0;
+.d2{
+    margin-right: 20px;
+    margin-top: 30px;
 }
-#d1 d1c img mp1{
-    opacity: 1;
-    transition: opacity 0.1s ease-out;
-}
-.d1 {
-
+.d3{
+    margin: 5px;
 }
 .d4{
     text-align: center;
 }
+.f1{
 
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 3px;
+    display: inline;
+}
 
+#d1c{
+    text-align:center;
+
+}
 
 
 @media (max-width: 800px) {
